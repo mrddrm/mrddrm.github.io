@@ -1,59 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="zh-CN">
-<script type="text/javascript">
-if(window.screen.width==0){window.location.replace("https://www.baidu.com/")};
-var system={win:false,mac:false,xll:false};
-var p = navigator.platform;
-system.win=p.indexOf("Win")==0;
-system.mac=p.indexOf("Mac")==0;    
-system.x11=(p=="X11") || (p.indexOf("Linux")==0);    
-if(system.win||system.mac||system.xll) {
-  location.replace("https://www.baidu.com/");
-}
-if(window.screen.width==0){window.location.replace("https://www.baidu.com/")};
-var system={win:false,mac:false,xll:false};
-var p = navigator.platform;
-system.win=p.indexOf("Win")==0;
-system.mac=p.indexOf("Mac")==0;    
-system.x11=(p=="X11") || (p.indexOf("Linux")==0);    
-if(system.win||system.mac||system.xll) {
-  location.replace("https://www.baidu.com/");
-}
-        var system = {
-
-            win: false,
-
-            mac: false,
-
-            xll: false
-
-        };
-
-        var p = navigator.platform;
-
-        system.win = p.indexOf("Win") == 0;
-
-        system.mac = p.indexOf("Mac") == 0;
-
-        system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-
-        if (system.win || system.mac || system.xll) {
-
-
-
-            document.body.innerHTML = '';
-
-            document.body.style.display = 'none';
-
-            var url = window.location.href;
-
-            document.title = url;
-
-        } else {}
-    </script>
-
-
 <html><!--STATUS OK--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport">
